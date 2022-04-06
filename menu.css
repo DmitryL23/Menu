@@ -1,0 +1,76 @@
+body    {
+    background-color: rosybrown
+}
+#menu1  {
+    width: 680px;
+    height: 200px;
+    border: 1px solid green;
+    margin: 0 auto 20px;
+    background-color: white;
+    display: flex;
+    padding-left: 35px;
+    padding-top: 35px;
+
+}
+#menu1 a   {
+    color: white;
+    background-color: rgba(24, 174, 91, 0.886);
+    text-decoration: none;
+    border: 1px solid rgba(24, 174, 91, 0.886);
+    margin-right: 5px;
+    padding: 7px 20px;
+    height: 20px;
+}
+#menu1 a.active, #menu1 a:hover {
+    color: rgba(24, 174, 91, 0.886);
+    background-color: white;
+}
+
+#menu2  {
+    width: 680px;
+    height: 300px;
+    border: 1px solid green;
+    margin: 0 auto 20px;
+    background-color: white;
+    padding-top: 35px;
+    padding-left: 35px;
+
+}
+#menu2 a    {
+    display: block;
+    background-color: rgba(24, 174, 91, 0.886);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 5px;
+    height: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(24, 174, 91, 0.886);
+    margin-bottom: 10px;
+    width: 220px;
+}
+#menu2 a.active2, #menu2 a:hover    {
+    color: rgba(24, 174, 91, 0.886);
+    background-color: white;
+}
+#menu3  {
+    display: flex;
+    width: 680px;
+    height: 200px;
+    border: 1px solid green;
+    margin: 0 auto 20px;
+    background-color: white;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+#menu3 a    {
+    background-color: rgba(24, 174, 91, 0.886);
+    color: white;
+    padding: 10px 30px;
+    height: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#menu3 a.active3, #menu3 a:hover    {
+    color: white;
+    background-color: rgb(15, 110, 15);
+}
